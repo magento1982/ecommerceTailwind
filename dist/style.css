@@ -822,6 +822,10 @@ h1,h2,h3,h4,h5,h6{
   inset: 0px;
 }
 
+.-left-8{
+  left: -2rem;
+}
+
 .-right-3{
   right: -0.75rem;
 }
@@ -840,6 +844,10 @@ h1,h2,h3,h4,h5,h6{
 
 .right-0{
   right: 0px;
+}
+
+.top-0{
+  top: 0px;
 }
 
 .top-3{
@@ -864,6 +872,10 @@ h1,h2,h3,h4,h5,h6{
 
 .col-span-3{
   grid-column: span 3 / span 3;
+}
+
+.col-span-9{
+  grid-column: span 9 / span 9;
 }
 
 .mx-3{
@@ -952,6 +964,10 @@ h1,h2,h3,h4,h5,h6{
   height: 3rem;
 }
 
+.h-14{
+  height: 3.5rem;
+}
+
 .h-5{
   height: 1.25rem;
 }
@@ -982,6 +998,10 @@ h1,h2,h3,h4,h5,h6{
 
 .w-12{
   width: 3rem;
+}
+
+.w-14{
+  width: 3.5rem;
 }
 
 .w-3\/5{
@@ -1033,6 +1053,10 @@ h1,h2,h3,h4,h5,h6{
   max-width: 36rem;
 }
 
+.flex-shrink-0{
+  flex-shrink: 0;
+}
+
 .flex-grow{
   flex-grow: 1;
 }
@@ -1053,6 +1077,10 @@ h1,h2,h3,h4,h5,h6{
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+}
+
+.grid-cols-12{
+  grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
 .grid-cols-2{
@@ -1135,6 +1163,12 @@ h1,h2,h3,h4,h5,h6{
   --tw-space-x-reverse: 0;
   margin-right: calc(1.5rem * var(--tw-space-x-reverse));
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-1 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
 }
 
 .space-y-2 > :not([hidden]) ~ :not([hidden]){
@@ -1327,6 +1361,19 @@ h1,h2,h3,h4,h5,h6{
      object-fit: contain;
 }
 
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.p-1{
+  padding: 0.25rem;
+}
+
+.p-4{
+  padding: 1rem;
+}
+
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1407,8 +1454,16 @@ h1,h2,h3,h4,h5,h6{
   padding-bottom: 1.5rem;
 }
 
+.pb-8{
+  padding-bottom: 2rem;
+}
+
 .pl-12{
   padding-left: 3rem;
+}
+
+.pl-8{
+  padding-left: 2rem;
 }
 
 .pr-3{
